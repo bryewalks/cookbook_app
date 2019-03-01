@@ -1,7 +1,8 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
+Recipe.create!([
+  {title: "Jelly Beans", chef: "Toot Sweet", ingredients: "sugar, sugar, sugar", directions: "mix, compact into candy pill form, rot teeth", image_url: "https://c.tadst.com/gfx/750w/jelly-bean-day-fun1.jpg", prep_time: 16},
+  {title: "Ratatouille", chef: "Remy", ingredients: "1 Large Zucchini, 1 Large Yellow Summer Squash, 2 Small Eggplants, 1 Red Bell Pepper, 1/2 Small Yellow Onion, 2 Garlic Cloves, 15 oz. can Crushed Tomatoes, Fresh Thyme, 1 tsp Salt", directions: "mix them", image_url: "https://media.chefdehome.com/740/0/0/ratatouille/ratatouille-casserole.jpg", prep_time: 60},
+  {title: "Cookies", chef: "Cookie Monster", ingredients: "cookie mix, milk, eggs, love", directions: "cookie, cookie, darn, should have bought eggs", image_url: "https://hostthetoast.com/wp-content/uploads/2014/10/The-Best-Chewy-Cafe-Style-Chocolate-Chip-Cookies-5.jpg", prep_time: 400},
+  {title: "Baked Beans", chef: "Frank Bush", ingredients: "Can, Beans, Fire", directions: "Out of the can, Into the man.", image_url: "https://lifemadesimplebakes.com/wp-content/uploads/2015/07/Moms-Oven-Baked-Beans-1.jpg", prep_time: 12},
+  {title: "Chocolate Donuts", chef: "Mr. Krispy Kreme", ingredients: "Chocolate, Donuts", directions: "Combine the two.", image_url: "https://www.crunchycreamysweet.com/wp-content/uploads/2016/02/chocolate-donuts-1.jpg", prep_time: 5},
+  {title: "Butternut Squash", chef: "stampy", ingredients: "butternuts", directions: "stamp it", image_url: "https://www.fifteenspatulas.com/wp-content/uploads/2018/10/Roasted-Butternut-Squash-Fifteen-Spatulas-1.jpg", prep_time: 2}
+])
