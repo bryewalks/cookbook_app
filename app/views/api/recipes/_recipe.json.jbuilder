@@ -6,7 +6,6 @@ json.image_url recipe.image_url
 json.ingredients recipe.ingredients
 json.directions recipe.directions
 json.prep_time recipe.prep_time
-json.created_at recipe.created_at
 
 json.formatted do
   json.ingredients recipe.ingredients_list
